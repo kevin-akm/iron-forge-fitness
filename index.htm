@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iron Forge Fitness — Train With Purpose</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#" class="nav__brand" aria-label="Iron Forge Fitness home">
+        <span class="nav__brand-mark">IFF</span>
+        <span class="nav__brand-name">Iron Forge Fitness</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary navigation">
+        <a href="#benefits">Benefits</a>
+        <a href="#programs">Programs</a>
+        <a href="#testimonials">Results</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn--primary nav__cta">Book Free Trial</a>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#benefits" class="nav__mobile-link">Benefits</a>
+      <a href="#programs" class="nav__mobile-link">Programs</a>
+      <a href="#testimonials" class="nav__mobile-link">Results</a>
+      <a href="#pricing" class="nav__mobile-link">Pricing</a>
+      <a href="#contact" class="nav__mobile-link">Contact</a>
+      <a href="#contact" class="btn btn--primary nav__mobile-cta">Book Free Trial</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__bg-image"></div>
+        <div class="hero__bg-overlay"></div>
+      </div>
+      <div class="hero__content container">
+        <p class="hero__eyebrow">Premium Gym · Cairo's Finest</p>
+        <h1 class="hero__headline">
+          Stop Starting Over.<br />
+          <em>Build the body you'll keep.</em>
+        </h1>
+        <p class="hero__sub">
+          Certified coaches. Structured programs. A gym that meets you where you are — and pushes you further than you thought possible.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary btn--lg">Book Your Free Trial</a>
+          <a href="#programs" class="btn btn--ghost btn--lg">See Programs</a>
+        </div>
+        <p class="hero__microtrust">No commitment. First session is completely free.</p>
+      </div>
+      <div class="hero__stat-bar" aria-hidden="true">
+        <div class="container hero__stats">
+          <div class="hero__stat"><strong>500+</strong><span>Members</span></div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat"><strong>8</strong><span>Certified Coaches</span></div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat"><strong>4.9★</strong><span>Google Rating</span></div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat"><strong>3 yrs</strong><span>In Business</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section class="benefits section" id="benefits">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow">Why Iron Forge</p>
+          <h2 class="section__title">Everything you need to actually follow through.</h2>
+        </div>
+        <div class="benefits__grid">
+          <article class="benefit-card">
+            <div class="benefit-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="20" width="36" height="8" rx="4" fill="currentColor"/><rect x="2" y="16" width="8" height="16" rx="4" fill="currentColor"/><rect x="38" y="16" width="8" height="16" rx="4" fill="currentColor"/><rect x="14" y="10" width="4" height="28" rx="2" fill="currentColor" opacity=".5"/><rect x="30" y="10" width="4" height="28" rx="2" fill="currentColor" opacity=".5"/></svg>
+            </div>
+            <h3 class="benefit-card__title">Structured Training</h3>
+            <p class="benefit-card__copy">Every session has a plan. No more wandering around the gym not knowing what to do. You show up — we handle the rest.</p>
+          </article>
+          <article class="benefit-card">
+            <div class="benefit-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="16" r="8" fill="currentColor"/><path d="M8 40c0-8.837 7.163-16 16-16s16 7.163 16 16" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M30 32l4 4 6-6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".6"/></svg>
+            </div>
+            <h3 class="benefit-card__title">Certified Coaches</h3>
+            <p class="benefit-card__copy">Every coach holds a recognised fitness certification. You get real instruction, not guesswork — and someone who tracks your progress weekly.</p>
+          </article>
+          <article class="benefit-card">
+            <div class="benefit-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 6l4.5 9.1 10 1.5-7.2 7 1.7 10-9-4.7-9 4.7 1.7-10-7.2-7 10-1.5z" fill="currentColor"/></svg>
+            </div>
+            <h3 class="benefit-card__title">Beginner-Friendly</h3>
+            <p class="benefit-card__copy">We've designed everything for people who are just starting out. Zero judgment. Scaled workouts. A community that's actually supportive.</p>
+          </article>
+          <article class="benefit-card">
+            <div class="benefit-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 14h24M12 24h16M12 34h20" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><circle cx="38" cy="34" r="6" fill="currentColor" opacity=".7"/><path d="M35 34l2 2 4-4" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="benefit-card__title">Nutrition Guidance</h3>
+            <p class="benefit-card__copy">Training alone won't cut it. We give you practical nutrition advice that works with your lifestyle — no extreme diets, no meal prep hell.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAMS -->
+    <section class="programs section section--dark" id="programs">
+      <div class="container">
+        <div class="section__header section__header--light">
+          <p class="section__eyebrow">Our Programs</p>
+          <h2 class="section__title">Pick the path that fits your goal.</h2>
+        </div>
+        <div class="programs__grid">
+          <article class="program-card">
+            <div class="program-card__label">Weight Loss</div>
+            <h3 class="program-card__title">Burn Fat. Keep Muscle.</h3>
+            <p class="program-card__outcome">Lose 4–8 kg in 12 weeks through sustainable training and calorie-smart habits — without living in the gym.</p>
+            <p class="program-card__for"><strong>Best for:</strong> Anyone who's tried diets before and failed, or can't stick to a plan alone.</p>
+            <ul class="program-card__list">
+              <li>3 sessions/week with a structured split</li>
+              <li>Weekly check-in with your coach</li>
+              <li>Nutrition targets set for your lifestyle</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline">Start This Program</a>
+          </article>
+          <article class="program-card">
+            <div class="program-card__label">Strength</div>
+            <h3 class="program-card__title">Build Muscle. Build Confidence.</h3>
+            <p class="program-card__outcome">Progress from zero to lifting heavy in 16 weeks. You'll look different and move better — measurably.</p>
+            <p class="program-card__for"><strong>Best for:</strong> Beginners and intermediates who want a real body transformation, not just weight loss.</p>
+            <ul class="program-card__list">
+              <li>Progressive overload programming</li>
+              <li>Form coaching and injury prevention</li>
+              <li>Body composition tracking every 4 weeks</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline">Start This Program</a>
+          </article>
+          <article class="program-card program-card--featured">
+            <div class="program-card__badge">Most Results</div>
+            <div class="program-card__label">Coaching</div>
+            <h3 class="program-card__title">1-on-1 Personal Coaching</h3>
+            <p class="program-card__outcome">Your schedule, your goal, your coach. Every session is built around you — fastest route to lasting results.</p>
+            <p class="program-card__for"><strong>Best for:</strong> People who've struggled with accountability, or have specific goals that need individual attention.</p>
+            <ul class="program-card__list">
+              <li>Private sessions, zero group pressure</li>
+              <li>Custom program rebuilt monthly</li>
+              <li>Direct coach access via WhatsApp</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary">Book Free Intro</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow">Real Results</p>
+          <h2 class="section__title">People like you, 6 months later.</h2>
+        </div>
+        <div class="testimonials__grid">
+          <blockquote class="testimonial">
+            <p class="testimonial__quote">"I joined with no gym experience and a lot of anxiety about it. The coaches never made me feel out of place. I lost 7 kg in about 14 weeks, but honestly the bigger change was that I actually look forward to going now."</p>
+            <footer class="testimonial__footer">
+              <div class="testimonial__avatar" aria-hidden="true">SR</div>
+              <div class="testimonial__meta">
+                <cite class="testimonial__name">Sara R.</cite>
+                <span class="testimonial__context">Weight Loss Program · 14 weeks</span>
+              </div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p class="testimonial__quote">"I'd been going to other gyms for two years and barely made progress. Three months into the strength program here and I'm hitting numbers I didn't think were realistic for me. The programming is genuinely different."</p>
+            <footer class="testimonial__footer">
+              <div class="testimonial__avatar" aria-hidden="true">KM</div>
+              <div class="testimonial__meta">
+                <cite class="testimonial__name">Karim M.</cite>
+                <span class="testimonial__context">Strength Program · 12 weeks</span>
+              </div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p class="testimonial__quote">"The 1-on-1 coaching was a bigger investment but it was worth every pound. My coach knows my schedule, my weaknesses, and he adjusts everything around them. I've lost 10 kg in 5 months and I've kept it off."</p>
+            <footer class="testimonial__footer">
+              <div class="testimonial__avatar" aria-hidden="true">HT</div>
+              <div class="testimonial__meta">
+                <cite class="testimonial__name">Hana T.</cite>
+                <span class="testimonial__context">Personal Coaching · 5 months</span>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing section section--gray" id="pricing">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow">Membership</p>
+          <h2 class="section__title">Straightforward pricing. No hidden fees.</h2>
+        </div>
+        <div class="pricing__grid">
+          <article class="pricing-card">
+            <div class="pricing-card__tier">Basic</div>
+            <div class="pricing-card__price">
+              <span class="pricing-card__amount">799</span>
+              <span class="pricing-card__currency">EGP</span>
+              <span class="pricing-card__period">/month</span>
+            </div>
+            <p class="pricing-card__desc">Full gym access with structured group programming. Best if you're self-motivated and just need the space and the plan.</p>
+            <ul class="pricing-card__features">
+              <li>Unlimited gym access</li>
+              <li>Group training programs</li>
+              <li>Monthly fitness assessment</li>
+              <li>Locker + shower access</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline pricing-card__cta">Get Started</a>
+          </article>
+          <article class="pricing-card pricing-card--featured">
+            <div class="pricing-card__badge">Most Popular</div>
+            <div class="pricing-card__tier">Standard</div>
+            <div class="pricing-card__price">
+              <span class="pricing-card__amount">1,299</span>
+              <span class="pricing-card__currency">EGP</span>
+              <span class="pricing-card__period">/month</span>
+            </div>
+            <p class="pricing-card__desc">Everything in Basic, plus regular coach contact and nutrition guidance. Where most members see the biggest results.</p>
+            <ul class="pricing-card__features">
+              <li>Everything in Basic</li>
+              <li>Bi-weekly 1:1 with a coach</li>
+              <li>Personalised nutrition targets</li>
+              <li>Progress tracking every 4 weeks</li>
+              <li>Priority class booking</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary pricing-card__cta">Book Free Trial</a>
+          </article>
+          <article class="pricing-card">
+            <div class="pricing-card__tier">Premium</div>
+            <div class="pricing-card__price">
+              <span class="pricing-card__amount">2,199</span>
+              <span class="pricing-card__currency">EGP</span>
+              <span class="pricing-card__period">/month</span>
+            </div>
+            <p class="pricing-card__desc">Fully private sessions with a dedicated coach. Your program changes with you — nothing is recycled or generic.</p>
+            <ul class="pricing-card__features">
+              <li>Everything in Standard</li>
+              <li>3x weekly private sessions</li>
+              <li>Custom monthly program</li>
+              <li>Direct WhatsApp access to coach</li>
+              <li>Meal plan review</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline pricing-card__cta">Get Started</a>
+          </article>
+        </div>
+        <p class="pricing__note">All plans include a free first session. No contract required for the first month.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT / CTA -->
+    <section class="contact section section--dark" id="contact">
+      <div class="container contact__inner">
+        <div class="contact__copy">
+          <p class="section__eyebrow">Free Trial</p>
+          <h2 class="contact__title">Your first session costs nothing.</h2>
+          <p class="contact__sub">Come in, meet your coach, and try a real session — on us. No pitch. No pressure. Just training.</p>
+          <div class="contact__trust">
+            <span class="contact__trust-item">✓ No commitment</span>
+            <span class="contact__trust-item">✓ No joining fee</span>
+            <span class="contact__trust-item">✓ 60-min full session</span>
+          </div>
+        </div>
+        <div class="contact__form-wrap">
+          <form class="contact__form" id="trialForm" novalidate>
+            <div class="form-field">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required />
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="01X XXXX XXXX" autocomplete="tel" required />
+            </div>
+            <div class="form-field">
+              <label for="goal">Your Main Goal</label>
+              <select id="goal" name="goal" required>
+                <option value="" disabled selected>Select your goal</option>
+                <option value="fat-loss">Lose fat and get leaner</option>
+                <option value="muscle">Build muscle and strength</option>
+                <option value="general">General fitness and health</option>
+                <option value="coaching">I want 1-on-1 coaching</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn--primary btn--lg btn--full">Book My Free Trial →</button>
+            <p class="form__note">We'll contact you within 2 hours to confirm your session time.</p>
+          </form>
+          <div class="form__success" id="formSuccess" hidden>
+            <div class="form__success-icon" aria-hidden="true">✓</div>
+            <h3>You're booked in.</h3>
+            <p>We'll call you within 2 hours to confirm your free trial session. See you soon.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__brand-mark">IFF</span>
+        <p class="footer__tagline">Train with purpose. Build something that lasts.</p>
+      </div>
+      <p class="footer__copy">&copy; 2025 Iron Forge Fitness. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
